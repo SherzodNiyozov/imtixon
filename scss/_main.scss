@@ -86,7 +86,7 @@
   color: #363738;
 }
 
-.why {
+.whay {
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -578,6 +578,19 @@ td>a {
     display: flex;
     justify-content: center;
   }
+
+  .nashi__inner {
+    display: block;
+  }
+
+  .nashi__nav {
+    margin: 0 auto;
+  }
+
+  .nashi__ip {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -589,7 +602,7 @@ td>a {
     display: none;
   }
 
-  table {
+  .jadval {
     display: none;
   }
   
