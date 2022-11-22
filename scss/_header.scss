@@ -1,0 +1,208 @@
+.header__container {
+  position: relative;
+}
+
+.header__container>img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: -310px;
+}
+
+.postafchik__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 109px;
+  img {
+    border-radius: 30px;
+  }
+}
+
+.postafchik__theme {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 125%;
+  color: #363738;
+  padding-bottom: 40px;
+  max-width: 610px;
+}
+
+.postafchik__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  padding-bottom: 40px;
+  max-width: 525px;
+}
+
+
+.postafchik__link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #363738;
+  border-bottom: 3px solid #FFCE50;
+  padding-bottom: 10px;
+}
+
+.postafchik__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;  
+  margin-top: 67px;
+  padding: 40px 80px;
+  margin-bottom: 100px;
+  background-color: #fff;
+}
+
+.postafchik__item {
+  border-left: 2px solid rgb(218, 218, 218);
+  padding-left: 64px;
+}
+
+
+.postafchik__item-theme {
+  max-width: 228px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+  margin-top: 25px;
+}
+
+.postafchik__item-text {
+  max-width: 225px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-top: 16px;
+}
+
+.item {
+  border: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .postafchik__box {
+    display: block;
+    img {
+      display: none;
+    }
+  }
+
+  .header__container>img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: -710px;
+  }
+
+  .postafchik__theme {
+    max-width: 466px;
+  }
+
+  .header__img {
+    max-width: 100%;
+    margin-top: 56px;
+    height: 314px;
+    border-radius: 10px;
+    background-image: url(../img/adir-Cargo-Insurance.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .postafchik__list {
+    padding: 0;
+    box-shadow:none;
+    border: none;
+  }
+
+  .postafchik__item {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 32px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;  
+    margin-top: 16px;
+    padding: 40px 80px;
+    background-color: #fff;
+    img {
+      display: inline-block;
+    }
+  }
+
+  .postafchik__item-theme {
+    max-width: 359px;
+    margin: 0;
+  }
+
+  .postafchik__item-text {
+    max-width: 394px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header__container {
+    background: linear-gradient(180deg, rgba(11,117,114,1) 61%, rgba(255,255,255,1) 61%);
+    padding:0 15px;
+    img {
+      display: none;
+    }
+  }
+
+  .postafchik__theme {
+    color: #fff;
+  }
+
+  .postafchik__text {
+    color: #fff;
+  }
+
+  .postafchik__link {
+    color: #fff;
+  }
+
+
+  .header__img {
+    max-width: 100%;
+    margin-top: 40px;
+    height: 253px;
+    border-radius: 10px;
+    background-image: url(../img/adir-Cargo-Insurance.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .postafchik__list {
+    padding: 0;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;  
+    margin-top: 67px;
+    padding: 40px 80px;
+    margin-bottom: 100px;
+    background-color: #fff;
+  }
+
+  .postafchik__item {
+    box-shadow:none;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    img {
+      display: block;
+    }
+  }
+
+
+}

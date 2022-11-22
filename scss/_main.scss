@@ -1,0 +1,396 @@
+.sfere__theme {
+  max-width: 687px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+  margin-bottom: 32px;
+}
+
+.sfere__text {
+  max-width: 667px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-bottom: 40px;
+}
+
+.sfere__inpus {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.sfere__item {
+  display: flex;
+  gap: 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 40px;
+  margin-bottom: 16px;
+  input {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.imput-last {
+  margin-bottom: 100px;
+}
+
+.sfere__item-theme {
+  font-family: 'Exo 2';
+  max-width: 363px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+  margin-bottom: 24px;
+}
+
+.sfere__input-text {
+  font-family: 'PT Sans';
+  max-width: 466px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+}
+
+.progolosovalo>strong {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+  margin-bottom: 8px;
+}
+
+.progolosovalo>p {
+  font-family: 'Exo 2';
+  border-bottom: 3px solid #FFCE50;
+  padding-bottom: 39px;
+}
+
+.progolosovalo>p>span {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 150%;
+  letter-spacing: 0.3em;
+  color: #363738;
+}
+
+.why {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+.why__pic {
+  width: 100%;
+  margin-bottom: 73px;
+}
+
+.icons__link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 64px;
+  padding-bottom: 122px;
+}
+
+.icons__item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.icons__inner>h4 {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+  max-width: 327px;
+  margin-bottom: 16px;
+}
+
+.icons__inner>p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  max-width: 291px;
+}
+
+.work__theme {
+  max-width: 687px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+  margin-bottom: 32px;
+}
+
+.work__text {
+  max-width: 667px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-bottom: 56px;
+}
+
+.work__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 212px;
+}
+
+.work__item-inner {
+  padding: 24px 32px;
+} 
+
+.work__item-inner>h4 {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+  margin-bottom: 16px;
+}
+
+.work__item-inner>p {
+  max-width: 291px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-bottom: 32px;
+}
+
+.work__item-inner>a {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+  color: #363738;
+  border-bottom: 3px solid #FFCE50;
+  padding-bottom: 10px;
+}
+
+.clint__bgcolor {
+  display: flex;
+  justify-content: space-between;
+  padding: 85px 67px;
+  background-color: #0B7572;
+}
+
+.clint__theme {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #FFFFFF;
+}
+
+.clint__inner {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 28px 32px;
+}
+
+.clint__inner-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clint__inner-nav>p {
+  max-width: 274px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-bottom: 32px;
+}
+
+td:last-child{
+  border-right: none;
+} 
+
+table {
+  border-collapse: collapse;
+  margin-top: 32px;
+  border: none;
+  background-color: #F9F9FB;
+}
+
+td {
+  border-right: 1px solid rgb(202, 202, 202);
+  border-top: 1px solid rgb(202, 202, 202);
+  padding: 24px 16px;
+}
+
+.table__rov-first {
+  background-color: #0B7572;
+}
+
+.rov_theme {
+  text-align: center;
+  padding: 10px 36px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  align-items: center;
+  color: #FFFFFF;
+  border-right: 2px solid rgb(97, 97, 97);
+}
+
+.table__rov-first-last-child {
+  border: none;
+}
+
+
+td>p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #6B6B6C;
+  max-width: 112px;
+  margin-bottom: 10px;
+}
+
+td>h4 {
+  min-width: 134px;
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 135%;
+  color: #363738;
+  margin-bottom: 11px;
+}
+
+td>ul {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+td>a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+  color: #363738;
+}
+
+.etap__theme {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+  margin-top: 120px;
+  margin-bottom: 48px;
+}
+
+
+.etap__item {
+  display: flex;
+  gap: 56px;
+  background: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 32px 132px 32px 96px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+
+.etap__item-inner__theme {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125%;
+  color: #363738;
+  border-bottom: 3px solid #FFCE50;
+  padding-bottom: 24px;
+  max-width: 258px;
+  margin-bottom: 24px;
+}
+
+.etap__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  max-width: 568px;
+}
+
+.etap__item-last {
+  margin-bottom: 120px;
+}
+
+.nam {
+  padding-bottom: 130px;
+}
+
+.nam_theme {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+  margin-bottom: 90px;
+}
+
+.nam__list {
+  display: grid;
+  justify-content: space-between;
+  row-gap: 40px;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+
+.nam__item {
+  border-right: 1px solid #D7D7DD;
+  text-align: center;
+}
+
+.nam__item-theme {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+  margin-top: 32px;
+}
+
+.nam__item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-top: 14px;
+}
